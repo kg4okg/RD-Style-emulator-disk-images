@@ -2,10 +2,10 @@
 A repository for RD-disk images for an MFM disk emulator
 
 These disk images are meant to be used for PDP-11 computers using an RQDX3 controller.
-They are created for this MFM Disk Emulator: https://www.pdp8online.com/mfm/mfm.shtml
+They are created for this [MFM Disk Emulator](https://www.pdp8online.com/mfm/mfm.shtml).
 
 The RD disk drives supported are the following:
-
+```
 MFM "ST506/412 interface" (on RQDX{1,2,3})
 ==========================================
 disk	cap.	sec/trk	trk/cyl	cyl	notes
@@ -22,5 +22,5 @@ RD31	20M	17	4	615	ST225 seek (ms) 65/20/150
 RD32	40M	17	6	820	ST251(-1*) seek 40(28*)/8/70
 					ST277R(-1*) [MFM format] 40(28*)/8/70
 RD33	71M				Microscience HH-1090 [Never released]
-
+```
 (The above copied from https://www.ultimate.com/phil/pdp10/dec.disks)
