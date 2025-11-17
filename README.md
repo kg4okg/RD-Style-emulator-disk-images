@@ -3,6 +3,7 @@ A repository for RD-disk images for an MFM disk emulator
 
 These disk images are meant to be used for PDP-11 computers using an RQDX3 controller.
 They are created for this [MFM Disk Emulator](https://www.pdp8online.com/mfm/mfm.shtml).
+Please note that these images will **not** work with the SIMH PDP-11 simulator.
 
 The RD disk drives supported are the following:
 ```
